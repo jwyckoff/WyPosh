@@ -133,23 +133,7 @@
           "style": "plain",
           "template": "at <p:blue><b>{{ .CurrentDate | date \"15:04:05\" }}</b></>",
           "type": "time"
-        },
-        {
-        "alignment": "left",
-        "newline": true,
-        "segments": [
-          {
-            "foreground": "#E06C75",
-            "style": "plain",
-            "template": "\u0021",
-            "type": "root"
-          },
-          {
-            "foreground": "#E06C75",
-            "style": "plain",
-            "template": "\u276f",
-            "type": "text"
-          }
+        }
       ],
       "type": "rprompt"
     }

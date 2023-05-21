@@ -4,6 +4,7 @@
 ## Install on Linux
 ```bash
 sudo apt install curl
+sudo apt install unzip
 sudo curl -s https://ohmyposh.dev/install.sh | sudo bash -s
 
 ```

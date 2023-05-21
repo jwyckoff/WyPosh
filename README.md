@@ -11,7 +11,12 @@ sudo curl -s https://ohmyposh.dev/install.sh | sudo bash -s
 
 Add this to `~/.bashrc`
 ```bash
-eval "$(oh-my-posh init bash --config https://raw.githubusercontent.com/jwyckoff/WyPosh/be5ecafe11bc82f5351a8df97979159fe6808699/wyckoff.json)"
+eval "$(oh-my-posh init bash --config https://raw.githubusercontent.com/jwyckoff/WyPosh/main/wyckoff.json)"
+```
+
+or
+```bash
+eval "$(oh-my-posh init bash --config https://raw.githubusercontent.com/jwyckoff/WyPosh/main/wy-linux.json)"
 ```
 
 

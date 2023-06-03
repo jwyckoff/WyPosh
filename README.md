@@ -17,7 +17,7 @@ eval "$(oh-my-posh init bash --config https://raw.githubusercontent.com/jwyckoff
 or
 ```bash
 echo 'eval "$(oh-my-posh init bash --config https://raw.githubusercontent.com/jwyckoff/WyPosh/main/wy-linux.json)"' >> ~/.bashrc
-. /~.bashrc
+. ~/.bashrc
 
 ```
 

@@ -29,7 +29,27 @@ Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 ```
 
+### Windows Terminal
+Update settings to use the nerd font.
+
+```json
+"profiles": {
+        "defaults": {
+            "startingDirectory": "d:\\repos",
+            "font": {
+                "face": "MesloLGM Nerd Font",
+                "size": 10
+            }
+        },
+}
+```
+
 ```powershell
 notepad $PROFILE
-oh-my-posh init pwsh --config https://raw.githubusercontent.com/jwyckoff/WyPosh/be5ecafe11bc82f5351a8df97979159fe6808699/wyckoff.json | Invoke-Expression
+```
+
+Contents:
+```
+$themePath = "https://raw.githubusercontent.com/jwyckoff/WyPosh/be5ecafe11bc82f5351a8df97979159fe6808699/wyckoff.json"
+oh-my-posh init pwsh --config $themePath | Invoke-Expression
 ```
